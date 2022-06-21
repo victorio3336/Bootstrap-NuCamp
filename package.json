@@ -4,13 +4,15 @@
   "main": "index.html",
   "scripts": {
     "lite": "lite-server",
+    "scss": "sass css:css",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Victor",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "sass": "^1.52.3"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
